@@ -5,11 +5,18 @@ name = "pypi"
 
 [packages]
 flask = "*"
-sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+sqlalchemy-serializer = "*"
+flask-restful = "*"
+python-dotenv = "*"
+flask-cors = "*"
 faker = "*"
-migrate = "*"
+Werkzeug = "2.2.2"
+importlib-metadata = "6.0.0"
+importlib-resources = "5.10.0"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10.12"
+python_version = "3.10"
